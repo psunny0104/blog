@@ -23,15 +23,15 @@ module.exports = {
       },
       {
         label: '개발',
-        path: '/development/',
+        path: '/categories/development/',
       },
       {
         label: '알고리즘',
-        path: '/algorithms/',
+        path: '/categories/algorithms/',
       },
       {
         label: 'CS',
-        path: '/cs/',
+        path: '/categories/cs/',
       },
     ],
     author: {
