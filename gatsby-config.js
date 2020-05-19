@@ -7,14 +7,14 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'psunny0104',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      '개발 블로그',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'All',
         path: '/',
       },
       {
@@ -22,16 +22,24 @@ module.exports = {
         path: '/about/',
       },
       {
-        label: 'Contact me',
-        path: '/contact/',
+        label: '개발',
+        path: '/development/',
+      },
+      {
+        label: '알고리즘',
+        path: '/algorithms/',
+      },
+      {
+        label: 'CS',
+        path: '/cs/',
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Pilseon Kim',
+      email: 'psunny0104@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'https://github.com/psunny0104',
       rss: '#',
       vk: '#',
     },
